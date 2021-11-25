@@ -17,5 +17,9 @@
     <fragment
         android:id="@+id/endGameFragment"
         android:name="br.com.anagram.presentation.ui.end_game.EndGameFragment"
-        android:label="EndGameFragment" />
+        android:label="EndGameFragment" >
+        <action
+            android:id="@+id/action_endGameFragment_to_fragmentHome"
+            app:destination="@id/fragmentHome" />
+    </fragment>
 </navigation>
